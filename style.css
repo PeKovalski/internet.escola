@@ -1,1 +1,80 @@
+body {
+    background-color: #cce0f5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 70%;
+    background-color: #f0f4fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    position: relative;
+}
+
+.school-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.header-text {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #cce0f5;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.header-text h1 {
+    font-size: 2rem;
+    color: #003366;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.instructions {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.instructions h2 {
+    color: #003366;
+}
+
+.android-icon {
+    width: 80px;
+    margin-top: 20px;
+}
+
+.steps {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.steps p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.wifi-icon {
+    width: 60px;
+    margin-top: 20px;
+}
+
+.wifi-signal {
+    width: 80px;
+    margin-top: 20px;
+}
 
